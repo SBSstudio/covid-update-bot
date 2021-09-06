@@ -25,8 +25,8 @@ def staat(qq):
                     "url": "https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
                 }, 
                 {
-                    "text": " 🔔 Channel",
-                    "url": "https://t.me/sl_bot_zone"
+                    "text": " 🔔 ",
+                    "callback_data": "help"
                 }
             ]
         ]
