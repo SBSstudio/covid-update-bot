@@ -33,7 +33,7 @@ def staat(qq):
     }
 }
   headers = {'Content-type': 'application/json'}
-  r = requests.post(url, data=json.dumps(data), headers=headers)
+  r = requests.post(url, callback_data, data=json.dumps(data), headers=headers)
 
 def staa():
     r = requests.get('https://hpb.health.gov.lk/api/get-current-statistical')
