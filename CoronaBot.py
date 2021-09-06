@@ -26,7 +26,7 @@ def staat(qq):
                 }, 
                 {
                     "text": " 🔔 ",
-                    "callback_data": "help"
+                    "callback_data": "/help"
                 }
             ]
         ]
